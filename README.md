@@ -48,3 +48,5 @@ With the config generated before, all you have to do is run:
 ```sh
 npx @h3xag0nx/iron-autocompound@latest run
 ```
+
+More recipes will be updated on [wiki](https://github.com/h3xag0nx/iron-autocompound/wiki).
