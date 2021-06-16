@@ -9,7 +9,7 @@ Before all, please make sure you have node.js v12 or newer installed on your sys
 1. Generate a config file:
 
 ```sh
-npx @h3xag0nx/iron-autocompound config -a <your addresses>
+npx @h3xag0nx/iron-autocompound@latest config -a <your addresses>
 ```
 
 A config file will be created, located at `./config.toml` with the following content (kind of)
@@ -28,7 +28,7 @@ diabled = false
 The address and private key of harvester (the address who can call compound method) is randomly generated. Feel free to change if you created your own.
 
 **NOTE:**
-If you decide to use the auto generated wallet, please make sure you have set the harvester address to the vault contract, via explorer UI. We also added a utility to print out URL to explorer page for each vault, so you can use the command `npx @h3xag0nx/iron-autocompound explorer` to find out.
+If you decide to use the auto generated wallet, please make sure you have set the harvester address to the vault contract, via explorer UI. We also added a utility to print out URL to explorer page for each vault, so you can use the command `npx @h3xag0nx/iron-autocompound@latest explorer` to find out.
 
 Each vault can be toggle using the `disabled` flag, or can be scheduled separately as such:
 
@@ -46,5 +46,5 @@ This tool use [node-schedule](https://www.npmjs.com/package/node-schedule) under
 With the config generated before, all you have to do is run:
 
 ```sh
-npx @h3xag0nx/iron-autocompound run
+npx @h3xag0nx/iron-autocompound@latest run
 ```
