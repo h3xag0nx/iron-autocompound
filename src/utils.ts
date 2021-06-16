@@ -32,5 +32,5 @@ export const readConfig = async (filePath: string) => {
 };
 
 export const log = (...args: any[]) => {
-  console.log(`[${Date.now}]`, ...args);
+  console.log(`[${Date.now()}]`, ...args);
 };
