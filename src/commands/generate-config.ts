@@ -37,7 +37,7 @@ const command = new Command('config')
       const vaults = userVault.map((address: string) => {
         return {
           address,
-          diabled: false,
+          disabled: false,
         };
       });
 
